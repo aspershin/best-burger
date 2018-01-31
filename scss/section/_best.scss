@@ -13,3 +13,45 @@
   padding: 0;
   margin-bottom: rem(60px);
 }
+
+.best__content {
+  display: flex;
+}
+
+.best__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.best__item {
+  width: rem(281px);
+  padding: 20px;
+}
+
+.best__name {
+  font-family: 'Lifehack';
+  font-size: rem(24px);
+  font-weight: 400;
+  margin-bottom: rem(26px);
+}
+
+.best__desc {
+  font-family: 'Ubuntu';
+  font-size: rem(14px);
+  font-weight: 300;
+  color: $dark;
+  opacity: 0.8;
+}
+
+.best__image-pic {
+  margin-bottom: rem(34px);
+}
+
+div {
+  border: 1px solid black;
+}
+
+.best__image {
+  
+}

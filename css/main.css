@@ -259,3 +259,44 @@ ul {
   color: #2f3234;
   padding: 0;
   margin-bottom: 3.75rem; }
+
+.best__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.best__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.best__item {
+  width: 17.5625rem;
+  padding: 20px; }
+
+.best__name {
+  font-family: 'Lifehack';
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.625rem; }
+
+.best__desc {
+  font-family: 'Ubuntu';
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #2f3234;
+  opacity: 0.8; }
+
+.best__image-pic {
+  margin-bottom: 2.125rem; }
+
+div {
+  border: 1px solid black; }
+
+/*# sourceMappingURL=main.css.map */
