@@ -255,15 +255,40 @@ ul {
   -ms-flex-align: center;
   align-items: center; }
 
+.best__container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 .section__title--best {
   color: #2f3234;
   padding: 0;
-  margin-bottom: 3.75rem; }
+  margin-bottom: 1.875rem; }
 
 .best__content {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .best__list {
   display: -webkit-box;
@@ -274,29 +299,45 @@ ul {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
 
 .best__item {
-  width: 17.5625rem;
-  padding: 20px; }
+  width: 17.5rem;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 .best__name {
   font-family: 'Lifehack';
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 1.625rem; }
+  margin-bottom: 1.625rem;
+  text-align: center; }
 
 .best__desc {
   font-family: 'Ubuntu';
   font-size: 0.875rem;
   font-weight: 300;
   color: #2f3234;
-  opacity: 0.8; }
+  opacity: 0.8;
+  text-align: center; }
 
-.best__image-pic {
-  margin-bottom: 2.125rem; }
-
-div {
-  border: 1px solid black; }
+.best__image {
+  margin-bottom: 1.625rem; }
 
 /*# sourceMappingURL=main.css.map */
