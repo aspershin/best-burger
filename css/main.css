@@ -366,7 +366,13 @@ ul {
 .rewies__item-block {
   position: absolute;
   top: 3.125rem;
-  left: 1.25rem; }
+  left: 1.25rem;
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+  .rewies__item-block:hover {
+    opacity: 1; }
 
 .rewies__image {
   width: 21.0625rem;

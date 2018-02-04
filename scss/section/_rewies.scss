@@ -21,6 +21,11 @@
     position: absolute;
     top: rem(50px);
     left: rem(20px);
+    opacity: 0;
+    transition: .5s;
+    &:hover {
+        opacity: 1;
+      }
 }
 
 .rewies__image {
