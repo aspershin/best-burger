@@ -1,0 +1,65 @@
+.rewies__container {
+    width: rem(1348px);
+}
+
+.rewies__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.rewies__image-pic {
+    max-width: 100%;
+}
+
+.rewies__item {
+    position: relative;
+}
+
+.rewies__item-block {
+    position: absolute;
+    top: rem(50px);
+    left: rem(20px);
+}
+
+.rewies__image {
+    width: rem(337px);
+    height: rem(327px);
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.rewies__name {
+    width: rem(250px);
+    margin-bottom: rem(32px);
+    font-family: 'Gagalin';
+    font-size: rem(14px);
+    color: #ffffff;
+}
+
+.rewies__text {
+    width: rem(250px);
+    font-family: 'Ubuntu';
+    font-weight: 300px;
+    font-size: rem(14px);
+    color: #ffffff;
+    margin-bottom: rem(15px);
+}
+
+.rewies__btn {
+    width: rem(113px);
+    text-align: center;
+    background: $dark;
+    border-radius: 2px;
+    padding: rem(10px);
+}
+
+.rewies__btn-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 500px;
+    font-size: rem(13px);
+    color: #ffffff;
+}

@@ -340,4 +340,68 @@ ul {
 .best__image {
   margin-bottom: 1.625rem; }
 
+.rewies__container {
+  width: 84.25rem; }
+
+.rewies__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.rewies__image-pic {
+  max-width: 100%; }
+
+.rewies__item {
+  position: relative; }
+
+.rewies__item-block {
+  position: absolute;
+  top: 3.125rem;
+  left: 1.25rem; }
+
+.rewies__image {
+  width: 21.0625rem;
+  height: 20.4375rem;
+  overflow: hidden;
+  vertical-align: top; }
+
+.rewies__name {
+  width: 15.625rem;
+  margin-bottom: 2rem;
+  font-family: 'Gagalin';
+  font-size: 0.875rem;
+  color: #ffffff; }
+
+.rewies__text {
+  width: 15.625rem;
+  font-family: 'Ubuntu';
+  font-weight: 300px;
+  font-size: 0.875rem;
+  color: #ffffff;
+  margin-bottom: 0.9375rem; }
+
+.rewies__btn {
+  width: 7.0625rem;
+  text-align: center;
+  background: #2f3234;
+  border-radius: 2px;
+  padding: 0.625rem; }
+
+.rewies__btn-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  font-weight: 500px;
+  font-size: 0.8125rem;
+  color: #ffffff; }
+
 /*# sourceMappingURL=main.css.map */
