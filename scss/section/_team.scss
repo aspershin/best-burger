@@ -1,0 +1,73 @@
+.team {
+    background: url('../img/bg/team_bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.team__container {
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    width: 50%;
+    background: rgba($dark, 0.93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__content {
+    width: 70%;
+}
+
+.team__acco-image {
+    width: rem(100px);
+    height: rem(100px);
+    border-radius: 50%;
+}
+
+.team__acco-pic {
+    max-width: 100%;
+    width: rem(100px);
+    border-radius: 50%;
+}
+
+.team__acco-text {
+    color: #fff;
+}
+
+.team__acco-item--active {
+    .team__acco-trigger {
+        color: $yellow;
+        &:before {
+            transform: rotate(180deg);
+        }
+    }
+
+    .team__acco-content {
+        height: auto;
+    }
+}
+
+.team__acco-content {
+    display: flex;
+    height: 0;
+    overflow: hidden;
+}
+
+.team__acco-trigger {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Gagalin';
+    text-decoration: none;
+    display: flex;
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: rem(9px) solid transparent;
+        border-bottom-width: 0;
+        border-top-color: $yellow;
+    }
+}

@@ -79,6 +79,7 @@ ul {
 
 .container {
   width: 940px;
+  height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,6 +345,8 @@ ul {
   width: 84.25rem; }
 
 .rewies__list {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,19 +361,26 @@ ul {
   flex-wrap: wrap; }
 
 .rewies__image-pic {
-  max-width: 100%; }
+  max-height: 100%; }
 
 .rewies__item {
-  position: relative; }
+  width: 25%;
+  height: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .rewies__item-block {
   position: absolute;
   top: 3.125rem;
   left: 1.25rem;
   opacity: 0;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; }
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s; }
   .rewies__item-block:hover {
     opacity: 1; }
 
@@ -409,5 +419,77 @@ ul {
   font-weight: 500px;
   font-size: 0.8125rem;
   color: #ffffff; }
+
+.team {
+  background: url("../img/bg/team_bg.png") center center no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.team__container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: rgba(47, 50, 52, 0.93);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.team__content {
+  width: 70%; }
+
+.team__acco-image {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%; }
+
+.team__acco-pic {
+  max-width: 100%;
+  width: 6.25rem;
+  border-radius: 50%; }
+
+.team__acco-text {
+  color: #fff; }
+
+.team__acco-item--active .team__acco-trigger {
+  color: #f8b43a; }
+  .team__acco-item--active .team__acco-trigger:before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+.team__acco-item--active .team__acco-content {
+  height: auto; }
+
+.team__acco-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0;
+  overflow: hidden; }
+
+.team__acco-trigger {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Gagalin';
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .team__acco-trigger:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0.5625rem solid transparent;
+    border-bottom-width: 0;
+    border-top-color: #f8b43a; }
 
 /*# sourceMappingURL=main.css.map */
