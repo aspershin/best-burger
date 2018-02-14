@@ -1,0 +1,92 @@
+.order {
+    background: url('../img/bg/order_bg.png') center center no-repeat;
+    background-size: cover;
+}
+.form__row {
+    margin-bottom: rem(20px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    color: #fff;
+    flex: 1;
+}
+
+.form__input {
+    padding: rem(10px);
+    background: #fff;
+    border: none;
+    border-radius: rem(5px);
+    width: 100%;
+}
+
+.form__block {
+    flex: 1;
+    margin-right: rem(20px);
+}
+
+.form__title {
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-style: normal;
+    font-size: rem(14px);
+}
+
+.form__comments {
+    width: rem(460px);
+    height: rem(114px);
+    padding: rem(10px);
+    background: #fff;
+    border: none;
+    border-radius: rem(5px);
+    width: 100%;
+    resize: none;
+}
+
+.form-block {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.form__block-pay {
+    display: flex;
+}
+
+.form__radio {
+    margin-right: rem(10px);
+}
+
+.form__radio-block {
+    display: flex;
+    margin-right: rem(20px);
+    text-align: center;
+}
+
+.form__chek-block {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.form__check {
+    margin-right: rem(10px);
+}
+
+.form__btns {
+    display: flex;
+}
+
+.header__btn-form-order {
+    margin-right: rem(20px);
+}
+
+.order-link-clear {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
