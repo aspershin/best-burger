@@ -1,0 +1,67 @@
+.menu {
+    background: url('../img/bg/menu_bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section__title-menu {
+    color: #fff;
+    position: absolute;
+    left: rem(95px);
+    top: rem(110px);
+}
+
+.menu__title {
+    color: rgb(255, 255, 255);
+    font-size: rem(40px);
+    width: rem(80px);
+    background: rgba(0, 0, 0, 0.47);
+    position: relative;
+}
+
+.menu__text {
+    max-width: rem(540px);
+    padding: rem(60px) rem(60px) rem(60px) rem(30px);
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-style: normal;
+    font-size: rem(14px);
+    color: #fff;
+    display: none;
+    background: rgba(47, 50, 52, .93);
+}
+
+.menu__content {
+   position: absolute;
+   top: 0;
+   right: rem(60px);
+   bottom: 0;
+   display: flex;
+//    background: rgba(0, 0, 0, .51);
+}
+
+.menu__rotate {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: rotateZ(-90deg) translateX(-50%);
+    transform-origin: 0 50%;
+    white-space: nowrap;
+}
+
+.menu__item {
+    display: flex;
+}
+
+.menu__title-meat {
+    background: rgba(#0e0e0e, 0.7);
+}
+
+.menu__title-vegan {
+    background: rgba(#1c1a19, 0.7);
+}
+
+.menu__title-diet {
+    background: rgba(#2b2524, 0.7);
+}

@@ -37,7 +37,7 @@
 
 .form__comments {
     width: rem(460px);
-    height: rem(114px);
+    min-height: rem(114px);
     padding: rem(10px);
     background: #fff;
     border: none;

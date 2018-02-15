@@ -1,0 +1,69 @@
+.slider {
+    background: url('../img/bg/slider_bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slider__container {
+    height: 100%;
+}
+
+.section__title-slider {
+    color: #fff;
+}
+
+.slider__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__text {
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    color: #fff;
+}
+
+.section__title-slider-price-numb {
+    color: $orange;
+    margin-right: 10px;
+}
+
+.section__title-slider-price-rub {
+    color: $orange;
+    font-size: rem(36px);
+    padding-bottom: rem(10px);
+}
+
+.slider__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+}
+
+.slider__price-block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.header__btn-slider {
+    margin-bottom: rem(30px);
+    margin-left: rem(30px);
+}
+
+.slider__icons-left {
+    position: absolute;
+    left: rem(80px);
+    top: rem(315px);
+}
+
+.slider__icons-right {
+    position: absolute;
+    right: rem(80px);
+    top: rem(315px);
+}
