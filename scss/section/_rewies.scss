@@ -23,6 +23,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
+    @include tablets {
+        width: 50%;
+        height: 25;
+    }
 }
 
 .rewies__item-block {

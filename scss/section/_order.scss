@@ -2,6 +2,12 @@
     background: url('../img/bg/order_bg.png') center center no-repeat;
     background-size: cover;
 }
+
+.container-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .form__row {
     margin-bottom: rem(20px);
     display: flex;
@@ -50,6 +56,10 @@
     display: flex;
     align-items: top;
     justify-content: space-between;
+
+    @include tablets {
+        flex-direction: column;
+    }
 }
 
 .form__block-pay {

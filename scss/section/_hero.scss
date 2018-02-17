@@ -31,6 +31,12 @@
   }
 }
 
+.header__menu {
+  @include tablets() {
+    display: none;
+  }
+}
+
 .nav__item {
   display: inline-block;
   vertical-align: middle;
@@ -73,15 +79,25 @@
 .hero__content {
   width: 100%;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
   align-items: center;
   padding-bottom: 15%;
+
+  @include tablets() {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .hero__img, .hero__description {
   flex-basis: 50%;
   display: flex;
+
+  @include tablets() {
+    text-align: center;
+  }
 }
 
 .hero__description {
@@ -104,4 +120,19 @@
   font-size: rem(65px);
   font-weight: 400;
   line-height: 1;
+}
+
+.hero__arrow-scroll {
+  background: url('../img/content/arrow-scroll.png') center center no-repeat;
+  background-size: cover;
+  width: rem(29px);
+  height: rem(14px);
+  position: absolute;
+  bottom: rem(40px);
+  left: rem(600px);
+}
+
+.hero__arrow-scroll-link {
+  background: url('../img/content/arrow-scroll.png') center center no-repeat;
+  background-size: cover;
 }
